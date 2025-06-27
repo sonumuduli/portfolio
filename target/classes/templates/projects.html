@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"xmlns:th="http://www.thymeleaf.org">
+     <head>
+       
+    </head>
+    <body>
+            <!-- Projects Section-->
+            <div th:fragment="projects">
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">TRAVEL MANAGEMENT SYSTEM</h2>
+                                            <p>A comprehensive web application designed to streamline and automate travel-related operations. Built using Spring Boot, Spring Data JPA, and Hibernate for robust data persistence and management. The architecture follows a layered approach for scalability and maintainability</p>.
+                                                   <p>Technologies: Java,Spring,Hibernate,Data JPA,Lombok,Spring Web Database: H2-console</p>              
+                                                     <p>Achievements: Gained strong understanding of back-end code flow and real-world project structure.</p>
+                                        </div>
+                                        <img class="travel.png" src="/images/travel.png" alt="..." width="400" height="400"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 2-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">BLOGPOST WEBAPP</h2>
+                                            <p>A full-stack project integrating both front-end and back-end components.
+                                                 Optimized existing software systems for better performance and scalability.
+                                                  Managed version control systems and maintained code-base integrity.
+                                                  Assessed code during testing for glitches and bugs.
+                                                  Troubleshot technical issues during framework development.
+                                                 Actively pursued continuous learning in emerging technologies.</p>
+                                                 <p>Technologies: Java,Spring,Hibernate,Data JPA,Lombok,Spring Web Database: H2-console,react.js,html,css,js</p>
+                                        </div>
+                                        <img class="" src="" alt="COOMING SOON"width="400" height="400" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Call to action section-->
+            <section class="py-5 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" th:href="@{/contact}">Contact me</a>
+                    </div>
+                </div>
+            </section>
+            
+         </div>   
+       
+        
+        
+    </body>
+</html>
